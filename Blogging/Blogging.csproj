@@ -67,6 +67,10 @@
     <Compile Include="Migrations\201902040246099_ChangeDisplayName.Designer.cs">
       <DependentUpon>201902040246099_ChangeDisplayName.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\201902040323567_AddNewPost.cs" />
+    <Compile Include="Migrations\201902040323567_AddNewPost.Designer.cs">
+      <DependentUpon>201902040323567_AddNewPost.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Post.cs" />
     <Compile Include="Program.cs" />
@@ -89,6 +93,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\201902040246099_ChangeDisplayName.resx">
       <DependentUpon>201902040246099_ChangeDisplayName.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201902040323567_AddNewPost.resx">
+      <DependentUpon>201902040323567_AddNewPost.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
